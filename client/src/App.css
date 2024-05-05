@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: lightblue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Home {
+  text-align: center;
+  background-color: #8c5ed5bd;
+  text-shadow: 0dvh;
+}
+
+.Name {
+  font-size: medium;
+}
