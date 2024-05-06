@@ -1,4 +1,4 @@
-﻿# Progenics Client Care Website POC Demo
+﻿# Progenics Client Care Website POC
 
 New client care web app for automated patient registration.
 
