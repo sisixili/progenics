@@ -1,8 +1,8 @@
-﻿### Progenics Client Care Website Demo
+﻿# Progenics Client Care Website POC Demo
 
 New client care web app for automated patient registration.
 
-# Current features:
+### Current features:
 - Patients can submit forms
 - Can register users
 - Users can login to read and delete all submitted forms
