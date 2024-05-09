@@ -7,7 +7,7 @@ const validateToken = (req, res, next) => {
   if (!accessToken) return res.json({ error: "Login first!" });
 
   try {
-    const validToken = verify(accessToken, "8waH28nEHUwE");
+    const validToken = verify(accessToken, "8waH28nEHUwE"); 
     if (validToken) {
       return next();
     }

@@ -17,3 +17,12 @@ body {
 .Name {
   font-size: medium;
 }
+
+.FormPage {
+  margin: 10;
+  background-color: lightblue;
+}
+
+span {
+  color: red;
+}

@@ -48,7 +48,7 @@ function AllPatients() {
     })
     .then(res => {
       if (res.ok) {
-        alert("Successfully delete patient. Refresh the page")
+        alert("Successfully deleted patient.")
         return res.json
       } else {
         console.error("Failed to delete patient " + id)
@@ -56,8 +56,8 @@ function AllPatients() {
     })
     .catch(error => {
       console.error("Error: ", error)
-    })
-    ;
+    });
+    window.location.reload(); // refresh page after delete
   }
 
   return (
@@ -71,7 +71,7 @@ function AllPatients() {
       {listOfForms.filter(checkName).map((patient, key) => (
         <div className="patientName" key={patient.id}>
           <h4>
-            {patient.first_name} {patient.last_name}{" "}
+            {patient.first_name} {patient.last_name} {patient.dob} {" "}
             <button
               className="deleteBtn"
               onClick={() => handleDelete(patient.id)}
