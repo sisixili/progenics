@@ -1,6 +1,10 @@
 .App {
-  text-align: center;
-  background-color: lightblue;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#5929b8d1, #ba52d4);
 }
 
 body {
@@ -8,9 +12,18 @@ body {
   padding: 0;
 }
 
+.navBar {
+  margin: 0;
+}
+
 .Home {
+  width: 300%;
+  max-width: 540px;
+  
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
   text-align: center;
-  background-color: #8c5ed5bd;
   text-shadow: 0dvh;
 }
 
